@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="700.0" prefWidth="550.0" style="-fx-background-color: #221E1F;" xmlns="http://javafx.com/javafx/15.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="TicTacToeApp.TicTacToeMainController">
+   <children>
+      <ImageView fitHeight="700.0" fitWidth="550.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../PictureAndMedia/BackgroundMain.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="159.0" fitWidth="175.0" layoutX="195.0" layoutY="38.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../PictureAndMedia/Icon.png" />
+         </image>
+      </ImageView>
+      <Button fx:id="buttonDuo" contentDisplay="BOTTOM" graphicTextGap="0.0" layoutX="215.0" layoutY="262.0" mnemonicParsing="false" onAction="#onDuoMode" style="-fx-background-color: #221E1F;" text="Duo Mode" textFill="WHITE" textOverrun="CENTER_ELLIPSIS">
+         <font>
+            <Font name="Berlin Sans FB Demi Bold" size="20.0" />
+         </font>
+      </Button>
+      <Button fx:id="buttonDuoSeries" contentDisplay="BOTTOM" graphicTextGap="0.0" layoutX="188.0" layoutY="331.0" mnemonicParsing="false" onAction="#onDuoSeriesMode" style="-fx-background-color: #221E1F;" text="Duo Series Mode" textFill="WHITE" textOverrun="CENTER_ELLIPSIS">
+         <font>
+            <Font name="Berlin Sans FB Demi Bold" size="20.0" />
+         </font>
+      </Button>
+      <Button fx:id="buttonDuoMultiplayer" contentDisplay="BOTTOM" graphicTextGap="0.0" layoutX="160.0" layoutY="401.0" mnemonicParsing="false" onAction="#onDuoMultiplayerMode" style="-fx-background-color: #221E1F;" text="Duo Multiplayer Mode" textFill="WHITE" textOverrun="CENTER_ELLIPSIS">
+         <font>
+            <Font name="Berlin Sans FB Demi Bold" size="20.0" />
+         </font>
+      </Button>
+      <Button fx:id="buttonExit" layoutX="473.0" layoutY="14.0" mnemonicParsing="false" onAction="#onExit" style="-fx-background-color: #221E1F;" text="Exit" textFill="WHITE">
+         <font>
+            <Font name="Berlin Sans FB Demi Bold" size="20.0" />
+         </font>
+      </Button>
+      <Button fx:id="buttonAbout" layoutX="206.0" layoutY="637.0" mnemonicParsing="false" onAction="#onAboutTheGame" style="-fx-background-color: #221E1F;" text="About the Game" textFill="#c74141">
+         <font>
+            <Font name="Bauhaus 93" size="16.0" />
+         </font>
+      </Button>
+      <ImageView fitHeight="132.0" fitWidth="128.0" layoutX="211.0" layoutY="477.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../PictureAndMedia/Draft.png" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>
